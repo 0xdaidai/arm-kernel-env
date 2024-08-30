@@ -1,0 +1,1 @@
+savedcmd_/home/ubuntu/workspace/arm-env/mydriver/driver.mod := printf '%s\n'   driver.o | awk '!x[$$0]++ { print("/home/ubuntu/workspace/arm-env/mydriver/"$$0) }' > /home/ubuntu/workspace/arm-env/mydriver/driver.mod
